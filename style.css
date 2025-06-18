@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: serif;
+
+
+
+}
+
+.logo {
+    position: absolute;
+    margin: 3px 0 0 20%;
+    width: 45px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+a:hover {
+    color: rgb(40, 24, 24);
+    transition: 400ms;
+}
+
+a:active {
+    transform: scale(0.90);
+    color: #fbfbfb;
+}
+
+nav {
+
+    position: static;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    background-color: rgb(0, 0, 0, );
+    border-bottom: 1px solid rgba(43, 11, 11, 0.399);
+    box-shadow: 0 2px 15px rgba(43, 11, 11, 0.931);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding-right: px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgba(0, 0, 0, 0.664);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.Cod {
+    float: left;
+    color: rgb(32, 88, 106);
+    margin: 10px 0 0 21%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.Cod a {
+
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 30px;
+    font-family: monospace;
+}
+
+.Cod a:hover {
+    color: rgb(0, 76, 126);
+    transition: 500ms;
+    text-decoration: none;
+
+}
+
+.Cod a:active {
+    transform: scale(0.96);
+}
+.main1{
+    margin: 0 20%;
+}
+.main1 h1{
+    margin-top: 110px;
+    font-size: 55px;
+    width: 50%;
+}
+.main1 p{
+    font-size: 18px;
+    width: 50%;
+}
+.main1 img{
+    position: relative;
+    left: 60%;
+    top: -260px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+   
+    box-shadow: 0 2px 15px rgba(43, 11, 11, 0.931);
+}
+
+.restart{
+    margin-right: 20%;
+   margin-top: 2px;
+    border-radius: 10px;
+    background-color: rgba(6, 6, 186, 0.739);
+    padding: 0px;
+    color: white;
+}
+.restart a {
+    color: rgb(248, 248, 248);
+}
+.main2{
+   
+    box-shadow: 0 2px 15px rgba(43, 11, 11, 0.931);
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+ margin: 0 20%;
+}
+.main2 h1{
+    position: absolute;
+    width: 20%;
+    margin-left: 30%;
+    padding: 5px 0;
+}
+.main2 p{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 30%;
+    width: 20%;
+    padding: 5px 0;
+}
+.main2 img{
+    position: relative;
+   left: 2%;
+   bottom: 0px;
+   width: 330px;
+   height: 300px;
+   margin-top: 0px;
+   margin-bottom: 5px;
+
+   border-radius: 20px;
+
+}
+.main3{
+    margin: 0 20%;
+
+
+}
+.main3 h1{
+    margin-top: -280px;
+    width: 40%;
+}
+.main3 p{
+    width: 40%;
+
+}
+.process-section {
+    background: white;
+    padding: 20px 10px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%;
+  }
+  
+  .process-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .step {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(117, 116, 116, 0.515);
+    transition: transform 0.3s ease;
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: #a259ff; /* Figma'dagi binafsha rang */
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .step h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+  }
+  .main4{
+    margin: 0 20%;
+
+
+  }
+  .main4 h1{
+    text-align: center;
+    margin-top: 80px;
+  }
+  .main4 image{
+    width: 100%;
+    height: 400px;
+  }
+  .portfolio-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffffff;
+  }
+  
+  .portfolio-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .portfolio-desc {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .portfolio-item {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: 400px;
+    height: auto;
+    display: block;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 20px 5px;
+  }
+  
+  .portfolio-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 0 20px 15px;
+  }
+  
+  .case-btn {
+    margin-left: 20px;
+    padding: 6px 14px;
+    border: 1px solid #a259ff;
+    color: #a259ff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .case-btn:hover {
+    background-color: #a259ff;
+    color: white;
+  }
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    padding-right: px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+}
+footer li a{
+    color: white;
+}
